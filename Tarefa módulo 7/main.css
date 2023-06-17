@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: rgb(253,29,29);
+    background: linear-gradient(145deg, rgba(253,29,29,1) 1%, rgba(252,176,69,1) 99%);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+    background-color: black;
+}
+
+form h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+form input {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+form button {
+    margin: 10px;
+    padding: 1rem 3.5rem;
+    border-radius: 5px;
+    background: rgb(253,29,29);
+    background: linear-gradient(145deg, rgba(253,29,29,1) 1%, rgba(252,176,69,1) 99%);
+    color: white;
+    cursor: pointer;
+}
+
+.invalido,
+.valido,
+.recarregar {
+    color: white;
+    margin: 10px;
+    padding: 1rem 3.5rem;
+    display: none;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.valido {
+    background: rgb(29,253,107);
+    background: linear-gradient(145deg, rgba(29,253,107,1) 48%, rgba(97,252,69,1) 98%);
+}
+
+.invalido {
+    background: rgb(253,29,29);
+    background: linear-gradient(145deg, rgba(253,29,29,1) 25%, rgba(252,69,69,1) 73%);
+}
+
+.recarregar {
+    background: rgb(253,190,29);
+    background: linear-gradient(145deg, rgba(253,190,29,1) 25%, rgba(252,250,69,1) 99%);
+}
