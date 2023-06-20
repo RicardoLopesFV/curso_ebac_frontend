@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Formulário de cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="form-cadastro">
+            <h1>Formulário de cadastro</h1>
+            <label for="nome-cadastro">Nome completo:</label>
+            <input type="text" name="nome-cadastro" id="nome-cadastro">
+
+            <label for="email-cadastro">Email:</label>
+            <input type="email" name="email-cadastro" id="email-cadastro">
+
+            <label for="telefone-cadastro">Telefone:</label>
+            <input type="tel" name="telefone-cadastro" id="telefone-cadastro">
+
+            <label for="cpf-cadastro">CPF:</label>
+            <input type="number" name="cpf-cadastro" id="cpf-cadastro">
+
+            <label for="endereco-cadastro">Endereço:</label>
+            <input type="text" name="endereco-cadastro" id="endereco-cadastro">
+
+            <label for="cep-cadastro">CEP:</label>
+            <input type="number" name="cep-cadastro" id="cep-cadastro">
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script> 
+    <script src="./js/main.js"></script>
+    
+</body>
+
+</html>
