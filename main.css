@@ -67,8 +67,8 @@ form button:hover {
     background: linear-gradient(to bottom, #67c7ff, #0088cc);
 }
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
     -webkit-appearance: none;
     appearance: none;
     margin: 0;
