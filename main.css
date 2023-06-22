@@ -1,0 +1,14 @@
+.container {
+    margin-top: 100px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.col-md-4 {
+    margin: 0 auto;
+    padding: 32px;
+}
+
+button {
+    margin-top: 32px;
+}
